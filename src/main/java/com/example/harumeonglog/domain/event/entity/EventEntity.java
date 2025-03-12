@@ -1,5 +1,6 @@
 package com.example.harumeonglog.domain.event.entity;
 
+import com.example.harumeonglog.domain.common.entity.BaseEntity;
 import com.example.harumeonglog.domain.event.entity.enums.EventCategory;
 import com.example.harumeonglog.domain.member.entity.MemberEntity;
 import com.example.harumeonglog.domain.pet.entity.PetEntity;
@@ -15,7 +16,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 @Table(name = "event")
-public class EventEntity {
+public class EventEntity extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
