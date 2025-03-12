@@ -18,7 +18,7 @@ public class WalkPositionEntity extends BaseEntity {
     private Long id;
 
     @Column(name = "latitude", nullable = false)
-    private Double latitutde;
+    private Double latitude;
 
     @Column(name = "longitude", nullable = false)
     private Double longitude;

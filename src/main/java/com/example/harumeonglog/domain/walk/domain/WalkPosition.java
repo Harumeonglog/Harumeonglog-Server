@@ -9,7 +9,7 @@ public class WalkPosition {
 
     private Long id;
 
-    private Double latitutde;
+    private Double latitude;
 
     private Double longitude;
 
