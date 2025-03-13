@@ -26,6 +26,18 @@ public class WalkEntity extends BaseEntity {
     @Column(name = "time", nullable = false)
     private LocalTime time;
 
+    @Column(name = "start_latitude", nullable = false)
+    private Double startLatitude;
+
+    @Column(name = "start_longitude", nullable = false)
+    private Double startLongitude;
+
+    @Column(name = "walk_like_num", nullable = false)
+    private Long walkLikeNum;
+
+    @Column(name = "is_shared", nullable = false)
+    private Boolean isShared;
+
     @Column(name = "deleted_at")
     private LocalDateTime deletedAt;
 }

@@ -14,6 +14,14 @@ public class Walk {
 
     private LocalTime time;
 
+    private Double startLatitude;
+
+    private Double startLongitude;
+
+    private Long walkLikeNum;
+
+    private Boolean isShared;
+
     private LocalDateTime deletedAt;
 
     private LocalDateTime createdAt;
