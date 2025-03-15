@@ -1,0 +1,8 @@
+= Spring REST Docs Test
+:doctype: book
+:source-highlighter: prettify
+:toc: left
+:toc-title: 목차
+:app-name: REST Docs test
+:toclevels: 2
+:seclinks:
