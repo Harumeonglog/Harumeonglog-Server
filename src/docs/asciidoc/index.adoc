@@ -1,8 +1,8 @@
-= Spring REST Docs Test
+= 하루 멍록 API
 :doctype: book
 :source-highlighter: prettify
 :toc: left
 :toc-title: 목차
-:app-name: REST Docs test
+:app-name: 하루멍록
 :toclevels: 2
 :seclinks:
