@@ -26,14 +26,14 @@ public class WalkResponse {
 
     @Getter
     @Builder
-    public static class ShareWalkResponse {
+    public static class WalkShareResponse {
         private Long walkId;
         private Double distance;
         private Integer time;
         private Boolean isShared;
 
-        public static ShareWalkResponse from(Walk walk) {
-            return ShareWalkResponse.builder()
+        public static WalkShareResponse from(Walk walk) {
+            return WalkShareResponse.builder()
                     .walkId(walk.getId())
                     .distance(walk.getDistance())
                     .time(walk.getTime())
